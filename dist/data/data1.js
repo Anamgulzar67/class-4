@@ -1,6 +1,7 @@
 // simple data 
-let a = "I am from the data1.ts file";
-let b = "I am from the data2.ts file";
+let a = "I am from a   the data1.ts file";
+let b = "I am from b  the data2.ts file";
+let c = "I am from c  the data2.ts file";
 // functrion
 function sum(c, d) {
     return console.log(c + d);
@@ -21,4 +22,5 @@ const data1 = {
         "phone": "03046453405",
     }
 };
-export {};
+export default b;
+export { b, c, sum };

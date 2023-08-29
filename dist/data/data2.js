@@ -1,6 +1,6 @@
 let num1 = 3;
 let num2 = 6;
-const Student = [
+const student = [
     {
         name: "anam",
         age: 25,
@@ -17,4 +17,4 @@ const Student = [
         grade: 14,
     },
 ];
-export {};
+export { num1, num2, student };
